@@ -22,7 +22,8 @@ class Artist
   end
 
   def self.find_or_create_by_name(name)
-    
+    Artist.new(name)
+  end 
 
   def songs
     Song.all.select do |song|
