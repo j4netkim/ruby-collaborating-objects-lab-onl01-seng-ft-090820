@@ -23,7 +23,7 @@ class Artist
     end
   end
 
-  def
+  # def
 
 
 end
