@@ -23,7 +23,6 @@ class Artist
     end
   end
 
-
   def
 
 
