@@ -23,7 +23,7 @@ class Artist
     end
   end
 
-  # def
+  def self.find_or_create_by_name
 
 
 end
