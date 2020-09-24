@@ -1,4 +1,5 @@
 require 'pry'
+
 class Song
   attr_accessor :name, :artist
 
@@ -6,14 +7,11 @@ class Song
 
   def initialize(name)
     @name = name
+    save
+  end
+
+  def save
     @@all << self
   end
 
-  def self.all
-    @@all
-  end
-
-  def self.find_or_create_by_name
-
-
-end
+end 
